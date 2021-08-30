@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EA38B23E26DC768B00E00BF6 /* MyStringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA38B23D26DC768B00E00BF6 /* MyStringExtension.swift */; };
 		EA40E93626817F97007616B0 /* SwiftUI_Demo1App.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA40E93526817F97007616B0 /* SwiftUI_Demo1App.swift */; };
 		EA40E93826817F97007616B0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA40E93726817F97007616B0 /* ContentView.swift */; };
 		EA40E93A26817F9B007616B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA40E93926817F9B007616B0 /* Assets.xcassets */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EA38B23D26DC768B00E00BF6 /* MyStringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyStringExtension.swift; sourceTree = "<group>"; };
 		EA40E93226817F97007616B0 /* SwiftUI-Demo1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-Demo1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA40E93526817F97007616B0 /* SwiftUI_Demo1App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_Demo1App.swift; sourceTree = "<group>"; };
 		EA40E93726817F97007616B0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -103,6 +105,7 @@
 				EA40E93E26817F9B007616B0 /* Info.plist */,
 				EA40E93B26817F9B007616B0 /* Preview Content */,
 				EA40E9602681949F007616B0 /* MyWebview.swift */,
+				EA38B23D26DC768B00E00BF6 /* MyStringExtension.swift */,
 			);
 			path = "SwiftUI-Demo1";
 			sourceTree = "<group>";
@@ -264,6 +267,7 @@
 			files = (
 				EA40E93826817F97007616B0 /* ContentView.swift in Sources */,
 				EA40E9612681949F007616B0 /* MyWebview.swift in Sources */,
+				EA38B23E26DC768B00E00BF6 /* MyStringExtension.swift in Sources */,
 				EA40E93626817F97007616B0 /* SwiftUI_Demo1App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

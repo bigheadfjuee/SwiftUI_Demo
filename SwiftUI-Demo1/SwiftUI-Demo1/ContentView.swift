@@ -9,11 +9,12 @@ import SwiftUI
 
 struct ContentView: View {
   @State var isPlaying = true
-  
   @State var myWebView = MyWebView()
+  private var str = "abcdefg"
   
     var body: some View {
         PlayButton(isPlaying: $isPlaying, myWebView: $myWebView)
+      Text(str.myReverse())
         myWebView
     }
 }
@@ -30,8 +31,6 @@ struct PlayButton: View {
       Image(systemName: isPlaying ? "play.circle.fill" : "stop.circle.fill")
         .font( .system(size:50))
         .foregroundColor(isPlaying ? .green : .red)
-      
-        
     })
   }
   

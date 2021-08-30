@@ -10,8 +10,10 @@ import XCTest
 
 class SwiftUI_Demo1Tests: XCTestCase {
 
+  /*
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
+      continueAfterFailure = false
     }
 
     override func tearDownWithError() throws {
@@ -29,5 +31,12 @@ class SwiftUI_Demo1Tests: XCTestCase {
             // Put the code you want to measure the time of here.
         }
     }
-
+   */
+  
+  func test_myReverseString() {
+    let name = "Tony Lee"
+    let reversedString = name.reversedString()
+    XCTAssertEqual(reversedString, "eeL ynoT")
+  }
+  
 }
